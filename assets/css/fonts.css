@@ -1,0 +1,47 @@
+@font-face {
+   font-family: 'hattonbold';
+   src: url('../fonts/hatton-bold-webfont.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+   font-display: auto;
+}
+
+.hattonbold{
+   font-family: 'hattonbold';
+}
+
+@font-face {
+   font-family: 'tavirajregular';
+   src: url('../fonts/taviraj-regular-webfont.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+   font-display: auto;
+}
+
+.tavirajregular{
+   font-family: 'tavirajregular';
+}
+
+@font-face {
+   font-family: 'tavirajlight';
+   src: url('../fonts/taviraj-light-webfont.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+   font-display: auto;
+}
+
+.tavirajlight{
+   font-family: 'tavirajlight';
+}
+
+@font-face {
+   font-family: 'tavirajbold';
+   src: url('../fonts/taviraj-bold-webfont.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+   font-display: auto;
+}
+
+.tavirajbold{
+   font-family: 'tavirajbold';
+}

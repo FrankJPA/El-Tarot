@@ -1,0 +1,28 @@
+/* Importing */
+@import url(./animations/fade-in.css);
+@import url(./animations/back-in-down.css);
+@import url(./animations/fade-in-down.css);
+@import url(./animations/fade-in-left.css);
+@import url(./animations/fade-out.css);
+
+
+.animated {
+   animation-duration: .5s;
+   animation-fill-mode: both;
+}
+
+.animated.delay-1 {
+   animation-delay: .2s;
+}
+
+.animated.delay-2 {
+   animation-delay: .5s;
+}
+
+.slide.animated{
+   animation-duration: 5s;
+}
+
+.article header.animated{
+   animation-duration: .7s;
+}

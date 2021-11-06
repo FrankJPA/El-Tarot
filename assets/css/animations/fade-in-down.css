@@ -1,0 +1,23 @@
+@keyframes fadeInDown {
+   from {
+      opacity: 0;
+      transform: translate3d(50%, -100%, 20%);
+      -webkit-transform: translate3d(50%, -100%, 20%);
+      -moz-transform: translate3d(50%, -100%, 20%);
+      -ms-transform: translate3d(50%, -100%, 20%);
+      -o-transform: translate3d(50%, -100%, 20%);
+   }
+
+   to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+   }
+}
+ 
+.fadeInDown {
+   animation-name: fadeInDown;
+}
